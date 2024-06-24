@@ -1,0 +1,11 @@
+@media only screen and (max-width: 768px) {
+    html {
+        zoom: 1;
+        /* Set zoom to 100% */
+    }}
+        @media only screen and (max-width: 600px) {
+            .your-element {
+                font-size: 14px;
+                width: 100%;
+            }
+        }

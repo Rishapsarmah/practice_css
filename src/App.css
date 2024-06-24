@@ -1,6 +1,6 @@
 body{
   background-color: hwb(258 0% 95%);
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
   margin-left: 0.5rem;
 }
 .hero-container{
@@ -290,13 +290,15 @@ width: 50%;}
 @media only screen and (max-width: 698px) {
   body {
       background-color: hwb(258 0% 95%);
-      overflow-x: hidden;
+      /* overflow-x: hidden; */
       margin-left: 0.5rem;
     }
   .hero-head{
     align-items: center;
-    margin-left: 44rem;
+    margin-left: 6rem;
     font-size: 8rem;
+    width: 80rem;
+    padding-top: 11rem;
   }
   .hero-head1{
     width: 63rem;
@@ -309,14 +311,22 @@ width: 50%;}
    width: 50rem;
    height:35rem;
   }
+  .hero-btn{
+    width: 87%;
+    height: 9rem;
+  }
   .hero-btn1{
     width: 90rem;
+  }
+  .image_wrapper{
+    padding-top: 5rem;
   }
   .ten_M-txt{
     width: max-content;
     transform: none;
-    top: 121rem;
-    left: 23rem;
+    top: 130rem;
+    left: 11rem;
+    font-size: 5rem;
   }
   .ten_M-container{
     padding-left:8rem;
@@ -327,20 +337,33 @@ width: 50%;}
   ;}
   .image-text-container{
     width: 90rem;
-    flex-direction: column-reverse;
+    flex-direction: column;
     
   }
   .text-image{
-    width: 70%;
+    width: 83%;
+    padding-top: 7rem;
+    font-size: 5rem;
   }
   .text-image-container1{
     display: flex;
-    flex-direction:column;
+    flex-direction:column-reverse;
     width: 83rem;
   }
+  .image-text{
+    width: 68rem;
+  }
 
-  .text-image{
-    width: 50%;
+  .image-text1{
+    width: 100%;
+  }
+  .image-txt{
+    width: 100%;
+    margin-left: 3rem;
+  }
+  .text-image-header{
+    padding-left: 4rem;
+    font-size: 6rem;
   }
   .btn1{
     padding-right: 9rem;
@@ -353,35 +376,67 @@ width: 50%;}
     padding-left:50rem;
     justify-content:space-between;
    width: 113rem;
+   display: flex;
+   flex-direction: column;
   }
   .scrool-effect-text{
     width: 45rem;
     padding-left: 20rem;
   }
   .scroll-effect-para1{
-    padding-left: -1rem;
+    font-size: 8rem;
+    width: 84rem;
+  }
+  .scroll-effect-para2{
+    font-size: 5rem;
+    padding-left: 15rem;
+    width: 51rem;
   }
   .scrool-effect3{
     padding-left:50rem;
     justify-content:space-between;
     margin-left: 9rem;
+    display: flex;
+    flex-direction: column;
   }
   .scroll-effect-header{
-    width: 40rem;
-    padding-left: 7rem;
+    width: 73rem;
+    padding-left: 12rem;
+    font-size: 7rem;
+  }
+  .scrool-effect-text1{
+    width: 90rem;
+    font-size: 7rem;
+  }
+  .scrool-effect-text2{
+    width: 64rem;
+    font-size: 4rem;
+    padding-left: 15rem;
   }
   #para{
     margin-left: 7rem;
     ;
   }
+  .btn1-img{
+    width: 67rem;
+    padding-left: 22rem;
+    padding-top: 3rem;
+  }
   .scroll-effect-para{
-    margin-left: 0rem;
+    margin-left: 3rem;
+    font-size: 4rem;
+    width: 80rem;
   }
   .scroll-effect-2header{
     margin-left: 6rem;
+    font-size: 4rem;
   }
     .image-scroll-effect{
-      padding-right: 8rem;
+      padding-left: 32rem;
+      width: 63rem;
+    }
+    #image-scroll{
+      padding-left: 8rem;
     }
   .vtn{
     width: 76rem;
@@ -397,8 +452,8 @@ width: 50%;}
     width: 92rem;
   }
   
-  }
-@media only screen and (min-width:700px ){
+  } 
+ @media only screen and (min-width:700px ){
   .hero-container{
     width: 93rem;
   }
@@ -412,4 +467,10 @@ width: 50%;}
   .div-image-conatainer{
     padding-left: 3rem;
   }
-}
+} 
+/* @media only screen and (max-width: 768px) {
+  html {
+    zoom: 1.0;
+    /* Set zoom to 100% */
+  }
+} */

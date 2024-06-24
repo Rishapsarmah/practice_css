@@ -95,3 +95,10 @@
             margin-right: 2rem;
         }
 }
+@media (min-width:300px) and (max-width: 370px){
+    .header-items {
+            width: 12%;
+            margin-top: 1rem;
+            margin-right: 7%;
+        }
+}

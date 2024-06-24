@@ -93,7 +93,7 @@ function App() {
 				<div className="image-text-comn">
 					<div className="image-text-container">
 						<div>
-							<img src={image101} />
+							<img src={image101} className="image-text" />
 						</div>
 						<div className="text-image">
 							Fly through your email twice as fast as before .Be more
@@ -110,9 +110,9 @@ function App() {
 									<span className="text-color-outlook">outlook</span>
 								</h1>
 							</div>
-							<div>
+							<div className="image-text1">
 								{" "}
-								<img src={image102} alt="" />
+								<img src={image102} alt="" className="image-txt" />
 							</div>
 						</div>
 					</div>
@@ -151,7 +151,7 @@ function App() {
 							data-aos-easing="linear"
 							data-aos-duration="1500"
 						>
-							<img src={image106} />
+							<img src={image106} className="btn1-img" />
 						</div>
 					</div>
 					<div
@@ -161,8 +161,12 @@ function App() {
 						data-aos-duration="1500"
 					>
 						<div className="scrool-effect-text">
-							<h1>Share read statuses across your team</h1>
-							<h2>communicate and collaborate more effectively</h2>
+							<h1 className="scrool-effect-text1">
+								Share read statuses across your team
+							</h1>
+							<h2 className="scrool-effect-text2">
+								communicate and collaborate more effectively
+							</h2>
 							<p className="scroll-effect-para">
 								In Superhuman, read statuses are shared across your
 								team.Lets say ateammate sends an email and CCs you.Even
@@ -194,7 +198,11 @@ function App() {
 							</p>
 						</div>
 						<div>
-							<img src={image106} />
+							<img
+								src={image106}
+								className="image-scroll-effect"
+								id="image-scroll"
+							/>
 						</div>
 					</div>
 
