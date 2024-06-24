@@ -5,6 +5,11 @@
     display: ruby-text;
    
 }
+.header-image{
+    width: 34rem;
+    height: auto;
+    margin-top: 1rem;
+}
 .header-img{
     display: flex;
     justify-content: space-between;
@@ -12,6 +17,7 @@
 }
 .header-img1{
     padding-top: 1rem;
+    width: 28rem;
 }
 .headertag{
     display: flex;
@@ -31,7 +37,10 @@
     height: 3.6rem;
     border-radius: 0.5rem;
     width: 100%;
+    color: white;
+    font-size: large;
 }
 .header-items{
     width: 12%;
+    margin-top: 1rem;
 }

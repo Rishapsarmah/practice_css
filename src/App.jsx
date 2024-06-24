@@ -104,7 +104,7 @@ function App() {
 					<div className="text-image-contain1">
 						<div className="text-image-container1">
 							<div className="text-image">
-								<h1>
+								<h1 className="text-image-header">
 									Built for teams that use{" "}
 									<span className="text-color-gmail">Gmail</span> or{" "}
 									<span className="text-color-outlook">outlook</span>
@@ -132,8 +132,10 @@ function App() {
 							data-aos-duration="1500"
 						>
 							{" "}
-							<h1>Fix errors as you go</h1>
-							<h2>Speed up your typing by 30-50%</h2>
+							<h1 className="scroll-effect-para1">Fix errors as you go</h1>
+							<h2 className="scroll-effect-para2">
+								Speed up your typing by 30-50%
+							</h2>
 							<p className="scroll-effect-para">
 								Autocorrect fixes errors as you go-extra chararters,
 								missing characters,transposed characters, missing
@@ -168,7 +170,7 @@ function App() {
 								people read that email.
 							</p>
 						</div>
-						<img src={image106} />
+						<img src={image106} className="image-scroll-effect" />
 					</div>
 					<div
 						className="scrool-effect3"
@@ -180,8 +182,10 @@ function App() {
 							<h1 className="scroll-effect-header">
 								Avoid collisions with your team{" "}
 							</h1>
-							<h2>See when your team is replying </h2>
-							<p className="scroll-effect-para">
+							<h2 className="scroll-effect-2header">
+								See when your team is replying{" "}
+							</h2>
+							<p className="scroll-effect-para" id="para">
 								Imagine the scene : you and your team get an urgent email,
 								so you rapidly reply. But just after you hit send , your
 								team replies as well. In the best case , you look

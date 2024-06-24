@@ -6,7 +6,7 @@ function Header() {
 			<div className="header-img">
 				{" "}
 				<div className="header-img1">
-					<img src={image1115} alt="" />
+					<img src={image1115} alt="" className="header-image" />
 				</div>
 				<div className="header-items">
 					{" "}

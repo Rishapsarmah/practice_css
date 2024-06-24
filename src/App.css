@@ -292,6 +292,9 @@ width: 50%;}
     margin-left: 44rem;
     font-size: 8rem;
   }
+  .hero-head1{
+    width: 63rem;
+  }
   .hero-head2{
    justify-content:center;
    padding-left: 20rem;
@@ -306,8 +309,8 @@ width: 50%;}
   .ten_M-txt{
     width: max-content;
     transform: none;
-    top: 140rem;
-    left: 19rem;
+    top: 121rem;
+    left: 23rem;
   }
   .ten_M-container{
     padding-left:8rem;
@@ -329,30 +332,51 @@ width: 50%;}
     flex-direction:column;
     width: 83rem;
   }
+
   .text-image{
     width: 50%;
   }
+  .btn1{
+    padding-right: 9rem;
+  }
   .btn{
     width: 55rem;
-    padding-left: 10rem;
+    padding-left: 21rem;
   }
   .scrool-effect1{
     padding-left:50rem;
     justify-content:space-between;
-   
+   width: 113rem;
   }
   .scrool-effect-text{
     width: 45rem;
-    padding-left: 10rem;
+    padding-left: 20rem;
+  }
+  .scroll-effect-para1{
+    padding-left: -1rem;
   }
   .scrool-effect3{
     padding-left:50rem;
     justify-content:space-between;
+    margin-left: 9rem;
   }
   .scroll-effect-header{
-    width: 45rem;
-    padding-left: 10rem;
+    width: 40rem;
+    padding-left: 7rem;
   }
+  #para{
+    margin-left: 7rem;
+    ;
+  }
+  .scroll-effect-para{
+    margin-left: 0rem;
+  }
+  .scroll-effect-2header{
+    margin-left: 6rem;
+  }
+    .image-scroll-effect{
+      padding-right: 8rem;
+    }
   .vtn{
     width: 76rem;
     margin-left: 70rem;
