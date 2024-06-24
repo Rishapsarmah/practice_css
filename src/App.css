@@ -1,6 +1,7 @@
 body{
   background-color: hwb(258 0% 95%);
   overflow-x: hidden;
+  margin-left: 0.5rem;
 }
 .hero-container{
   color:white;
@@ -287,6 +288,11 @@ width: 50%;}
 
 }
 @media only screen and (max-width: 698px) {
+  body {
+      background-color: hwb(258 0% 95%);
+      overflow-x: hidden;
+      margin-left: 0.5rem;
+    }
   .hero-head{
     align-items: center;
     margin-left: 44rem;
