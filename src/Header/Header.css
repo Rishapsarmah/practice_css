@@ -1,10 +1,10 @@
-.list-items8{
+/* .list-items8{
     list-style-type: none;
     display: flex;
     justify-content: space-around;
     display: ruby-text;
    
-}
+} */
 .header-image {
     width: 20rem;
     height: auto;
@@ -43,11 +43,12 @@
     width: 100%;
     color: white;
     font-size: large;
-   
+ 
 }
 .header-items{
     width: 12%;
     margin-top: 1rem;
+    
 }
 @media only screen and (max-width: 698px) {
     .header-image {
@@ -55,7 +56,9 @@
         height: auto;
         margin-top: 1rem;
     }
-
+    .header-items {
+        margin-right: 3%;
+    }
     .header-img {
         display: flex;
         justify-content: space-between;
@@ -87,5 +90,6 @@
             color: white;
             font-size: large;
             margin-top: 1rem;
+            margin-right: 2rem;
         }
 }

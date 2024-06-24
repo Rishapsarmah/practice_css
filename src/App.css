@@ -1,6 +1,6 @@
 body{
   background-color: hwb(258 0% 95%);
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   margin-left: 0.5rem;
 }
 .hero-container{
